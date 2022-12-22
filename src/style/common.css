@@ -1,5 +1,4 @@
 .img-container {
-  margin: auto; /* set the image in center */
   opacity: 1;
 }
 
@@ -9,12 +8,6 @@
 
 .img-name {
   visibility: hidden;
-  text-align: center;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  position: relative;
-  top: 0;
-  bottom: 0;
   background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
 
@@ -22,23 +15,17 @@
   visibility: visible;
 }
 
-.img-thumbnail {
-  border-radius: 10px;
-  object-fit: cover;
-}
-
-.img-thumbnail:hover {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-
 .data-container {
-  display: grid;
   grid-template-columns: repeat(auto-fit, 4rem);
-  justify-content: space-evenly;
   grid-gap: 10px;
-  padding: 30px;
 }
+
+/* NAVBAR */
+.navbar li:nth-child(2) {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* NAVBAR */
 
 @media (min-width: 480px) {
   .data-container {
