@@ -26,7 +26,7 @@ const SocialMedia = (props) => {
   let socialMedia = [];
   Object.values(props.data).map((result) => {
     const icon = (
-      <div className="img-container" key={result.type}>
+      <div key={result.type}>
         <a href={result.url} target="_blank" rel="noreferrer" className="m-10">
           <FontAwesomeIcon
             icon={retrieveIcon(result.type)}

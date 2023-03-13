@@ -27,6 +27,22 @@
 }
 /* NAVBAR */
 
+.album-container {
+  min-height: calc(100vh - 4rem);
+}
+
+.media-container {
+  min-height: calc(100vh - 6rem);
+}
+
+img {
+  opacity: 0.8;
+}
+
+img:hover {
+  opacity: 1;
+}
+
 @media (min-width: 480px) {
   .data-container {
     grid-template-columns: repeat(auto-fit, 10rem);

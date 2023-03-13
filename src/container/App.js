@@ -9,7 +9,7 @@ import AlbumView from "../container/album/view";
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-8 py-8 min-h-full">
       <BrowserRouter>
         <Navbar />
         <Routes>

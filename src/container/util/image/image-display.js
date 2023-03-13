@@ -1,4 +1,4 @@
-const ImageOrientation = (props) => {
+const ImageDisplay = (props) => {
   let orientation,
     img = new Image();
   img.src = props.imgUrl;
@@ -17,10 +17,10 @@ const ImageOrientation = (props) => {
   return (
     <img
       src={props.imgUrl}
-      className={orientation + " m-auto rounded-xl"}
+      className={orientation + " m-auto rounded-xl object-contain"}
       alt={props.imgName}
     />
   );
 };
 
-export default ImageOrientation;
+export default ImageDisplay;

@@ -16,7 +16,7 @@ const Pagination = (props) => {
   const totalPage = props.totalPage ? parseInt(props.totalPage) : 1;
 
   return (
-    <div className="relative bottom-6">
+    <div className="relative">
       <nav className="m-auto left-0 right-0 text-center">
         <ReactPaginate
           className="inline-flex -space-x-px"
